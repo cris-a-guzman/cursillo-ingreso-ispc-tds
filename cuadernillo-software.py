@@ -4,10 +4,14 @@ from ejercicios.ejercicio3 import saber_numero
 from ejercicios.ejercicio4 import aprobo
 from ejercicios.ejercicio5 import radio_circulo
 from ejercicios.ejercicio6 import calcular_grados
+from ejercicios.ejercicio7 import nota_usuario
+from ejercicios.ejercicio8 import numero_impar_par
 from ejercicios.textos import *
 
 # Algo para agregar pueden ser colores en la terminal, es una verga asi
 # A todos estos programas le podemos agregar un json para que queden guardados los datos
+# Todos estos programas pueden ir guardados en un diccionario
+# Hay varias cosas que pueden ir dentro de una funcion para no repetir codigo (como salir de los ejercicios)
 
 menu_bienvenida()
 menu_pag1()
@@ -28,6 +32,10 @@ while validacion:
 		radio_circulo()
 	elif user_input == "6":
 		calcular_grados()
+	elif user_input == "7":
+		nota_usuario()
+	elif user_input == "8":
+		numero_impar_par()
 	elif user_input == "1111":
 		break
 	elif user_input == "+":
