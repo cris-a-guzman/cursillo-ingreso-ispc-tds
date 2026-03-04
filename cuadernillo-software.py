@@ -16,48 +16,20 @@ from ejercicios.textos import *
 menu_bienvenida()
 menu_pag1()
 iterador = 1
+opciones_menu = {
+	'1' : promedios,
+	'2' : numero_pi,
+	'3' : saber_numero,
+	'4' : aprobo,
+	'5' : radio_circulo,
+	'6' : calcular_grados,
+	'7' : nota_usuario,
+	'8' : numero_impar_par
+	
+}
 
 validacion = True
 while validacion:
 	user_input = input(" Ingrese el numero del problema para ejecutarlo: ")
-	if user_input == "1":	
-		promedios()
-	elif user_input == "2":
-		numero_pi()
-	elif user_input == "3":
-		saber_numero()		
-	elif user_input == "4":
-		aprobo()
-	elif user_input == "5":
-		radio_circulo()
-	elif user_input == "6":
-		calcular_grados()
-	elif user_input == "7":
-		nota_usuario()
-	elif user_input == "8":
-		numero_impar_par()
-	elif user_input == "1111":
-		break
-	elif user_input == "+":
-		if iterador == 1:
-			menu_pag2()
-			iterador = 2
-		elif iterador == 2:
-			#menu_pag3()
-			print(" Aca va el menu 3")
-			iterador = 3
-		elif iterador == 3:
-			menu_pag1()
-			iterador = 1
-	elif user_input == "-":
-		if iterador == 1:
-			# menu_pag3()
-			iterador = 3
-		elif iterador == 2:
-			menu_pag1()
-			iterador = 1
-		elif iterador == 3:
-			menu_pag2()
-			iterador = 2
-
+	opciones_menu[user_input]()
 	
