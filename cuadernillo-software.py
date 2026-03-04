@@ -6,6 +6,8 @@ from ejercicios.ejercicio5 import radio_circulo
 from ejercicios.ejercicio6 import calcular_grados
 from ejercicios.ejercicio7 import nota_usuario
 from ejercicios.ejercicio8 import numero_impar_par
+from ejercicios.ejercicio9 import division_simple
+from ejercicios.ejercicio10 import dia_semana
 from ejercicios.textos import *
 
 # Algo para agregar pueden ser colores en la terminal, es una verga asi
@@ -24,7 +26,9 @@ opciones_menu = {
 	'5' : radio_circulo,
 	'6' : calcular_grados,
 	'7' : nota_usuario,
-	'8' : numero_impar_par
+	'8' : numero_impar_par,
+	'9' : division_simple,
+	'10' : dia_semana
 	
 }
 
