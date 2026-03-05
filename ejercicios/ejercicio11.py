@@ -29,4 +29,3 @@ def categoria_edad():
         user_choice = input(" Te gustaria ingresar otra categoria? SI o NO").lower()
         if user_choice == "no":
             break
-
