@@ -37,4 +37,4 @@ def amigos():
     todos.sort()
     print(f" Quedo asi: {todos}")
 
-amigos()
+

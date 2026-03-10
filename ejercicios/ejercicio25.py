@@ -23,6 +23,6 @@ def promedios_2():
         elif user_input == "2":
             while validacion:
                 pass # a esto lo voy a terminar otro dia, no tengo ganas ahora
-promedios_2()
+
 
 

@@ -17,4 +17,3 @@ def factorial():
         print(" Lo ingresado no fue un numero.\n",
               " Intentelo de nuevo.")
     print(factor)
-factorial()
