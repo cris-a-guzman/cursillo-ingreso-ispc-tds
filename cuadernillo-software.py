@@ -15,6 +15,10 @@ from ejercicios.ejercicio14 import sumatoria
 from ejercicios.ejercicio15 import contar_string
 from ejercicios.ejercicio16 import contar_vocales
 from ejercicios.ejercicio17 import adivinar_numero
+from ejercicios.ejercicio18 import amigos
+from ejercicios.ejercicio19 import ordenar_numeros
+from ejercicios.ejercicio20 import contar_numeros
+from ejercicios.ejercicio21 import tuplas
 from ejercicios.textos import *
 
 # Algo para agregar pueden ser colores en la terminal, es una verga asi
@@ -42,7 +46,11 @@ opciones_menu = {
 	'14' : sumatoria,
 	'15' : contar_string,
 	'16' : contar_vocales,
-	'17' : adivinar_numero
+	'17' : adivinar_numero,
+	'18' : amigos,
+	'19' : ordenar_numeros,
+	'20' : contar_numeros,
+	'21' : tuplas
 }
 
 validacion = True

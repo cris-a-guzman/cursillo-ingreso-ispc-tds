@@ -16,4 +16,3 @@ def contar_numeros():
     except ValueError:
         print(" Lo que ingresaste no es un numero")
     print(lista)
-contar_numeros()

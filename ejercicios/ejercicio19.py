@@ -16,4 +16,3 @@ def ordenar_numeros():
     lista.reverse()
     print(f" Y asi queda ordenada de forma descendente: {lista}")
 
-ordenar_numeros()
